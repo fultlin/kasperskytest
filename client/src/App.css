@@ -1,0 +1,103 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.input {
+  width: 300px !important;
+}
+
+.wrapper {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.head {
+  display: flex;
+  flex-direction: row;
+  width: 1000px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.options {
+  display: flex;
+  flex-direction: row;
+  width: 1000px;
+  justify-content: space-between;
+  margin-top: 20px;
+  padding: 0 30px;
+}
+
+.options p {
+  width: 250px;
+  
+}
+
+.list {
+  max-width: 1000px;
+  width: 100%;
+  padding: 0;
+  max-height: 400px;
+  overflow-y: scroll;
+  text-align: center;
+}
+
+.list li {
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 10px;
+  border-radius: 10px;
+  transition: all 0.1s ease-in-out;
+}
+
+.list li p {
+  margin-bottom:  0;
+  width: 300px;
+  text-align: center;
+}
+
+.list li:hover {
+  cursor: pointer;
+  background-color: #888;
+}
+
+.buttons {
+  display: flex;
+  gap: 10px;
+  justify-content: space-around;
+}
+
+.inputcontent {
+  display: flex;
+  width: 400px;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.radio {
+  text-align: center !important;
+}
+
+.radio span{
+  color: rgba(0, 0, 0, 0.85) !important;
+}
+
+.input {
+  max-width: 200px;
+}
+
+.accardion {
+  background-color: transparent;
+}
